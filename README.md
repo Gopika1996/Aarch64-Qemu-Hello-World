@@ -9,10 +9,14 @@ Lessons learned:
 4. qemu device model
 
 # Prerequisites:
-Ubuntu:
-sudo apt-get install gcc-aarch64-linux-gnu qemu-system-arm qemu-system-aarch64 make
-fedora:
-sudo dnf install gcc-aarch64-linux-gnu qemu-system-arm qemu-system-aarch64 make
+
+Ubuntu-based system:
+  
+  sudo apt-get install gcc-aarch64-linux-gnu qemu-system-arm qemu-system-aarch64 make
+
+Fedora-based system:
+  
+  sudo dnf install gcc-aarch64-linux-gnu qemu-system-arm qemu-system-aarch64 make
 
 # Build steps:
 make
